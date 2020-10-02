@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.left-click,.right-click {
+    position: fixed;
+    top: 45vh;
+    font-size: 5em;
+    border: 5px solid darkblue;
+}
+
+.left-click a,.right-click a {
+    text-decoration: none;
+    padding: 20px;
+}
+
+.left-click {
+    left: 0;
+}
+
+.right-click {
+    right: 0
+}
+
+figure {
+    border: 5px solid rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    background: white;
+    max-width: 800px;
+    margin: 40px auto;
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+figcaption span {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 0.3rem 0.5rem;
+
+}
+
+img {
+    width: 100%;
+}
+
+@media (max-width: 650px){
+    html {
+        font-size: 13px;
+    }
+}
+@media (max-width: 400px){
+    html {
+        font-size: 10px;
+    }
+}
+@media (max-width: 300px){
+    html {
+        font-size: 7px;
+    }
+}
